@@ -2,7 +2,7 @@
 $(document).ready(function () {
    
         $('.toc-macro').html(
-          $('.toc-macro').html().split(/｜/).join("<span style='color: white;  background: red;'>｜</span>")
+          $('.toc-macro').html().split(/｜/).join("<span style='color: black;font-family: Raleway Bold; font-weight: 900;'>｜</span>")
         );
    
 
