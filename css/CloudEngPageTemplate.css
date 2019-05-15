@@ -1,3 +1,7 @@
+.search-macro-large .search-macro-query input  {
+    height: 70px;
+    text-align: center;
+}
 #comments-section {
     display: none;
 }
