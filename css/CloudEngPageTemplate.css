@@ -1,3 +1,12 @@
+hr {
+    border: 0;
+    height: 1px;
+    border-bottom: 1px solid #ccc;
+    background: #ccc;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(25%, #ccc), color-stop(75%, #ccc));
+    width: 95%;
+}
+
 .search-macro-large .search-macro-query .aui-icon-large {
     zoom: 2.2;
     top: 50%;

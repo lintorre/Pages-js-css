@@ -4,7 +4,7 @@ $(document).ready(function () {
         $('.toc-macro').html(
           $('.toc-macro').html().split(/｜/).join("<span style='color: black;font-family: Raleway Bold; font-weight: 900;'>｜</span>")
         );
-   
+        $( ".table-wrap:not(:last)" ).append("<hr></hr>" );
 
     setTimeout($('.contentLayout2').show(), 100);
 
