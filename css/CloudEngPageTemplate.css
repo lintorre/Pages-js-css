@@ -11,6 +11,7 @@
 .search-macro-large .search-macro-query input {
     height: 70px;
     text-align: center;
+    font-size: 32px;
 }
 
 #comments-section {
