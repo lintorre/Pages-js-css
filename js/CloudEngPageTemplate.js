@@ -54,6 +54,7 @@ $(document).ready(function () {
     }); */
 
     $(document).ready(function () {
+        caro(); 
         $(".dropdown,.dropdown-content").hover(function () {
             $(".dropdown-content").fadeIn(100);
         }, function () {
@@ -68,7 +69,7 @@ $(document).ready(function () {
 
 
 $(function () {
-    window.onscroll = function () { myFunction(),caro() };
+    window.onscroll = function () { myFunction(),caro(); };
     var header = document.getElementById("myHeader");
     var sticky = header.offsetTop;
     function myFunction() {
