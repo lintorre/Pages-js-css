@@ -1,15 +1,32 @@
-.search-macro-large .search-macro-query input  {
+.search-macro-large .search-macro-query .aui-icon-large {
+    zoom: 2.2;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.search-macro-large .search-macro-query input {
     height: 70px;
     text-align: center;
 }
+
 #comments-section {
     display: none;
 }
-.search-macro-large {  max-width: 500%;  width: 75%;}
+
+.search-macro-large {
+    max-width: 500%;
+    width: 75%;
+}
+
 .toc-macro {
     font-size: 14px;
     text-align: center;
 }
+
 .contentLayout2 {
     display: none
 }
@@ -171,7 +188,11 @@ div box-shadow-outset {
     line-height: 22px;
     padding: 20px 10px;
 }
-.CenterNarrow img {max-width: 100%;}
+
+.CenterNarrow img {
+    max-width: 100%;
+}
+
 .navbar {
 
     overflow: hidden;
