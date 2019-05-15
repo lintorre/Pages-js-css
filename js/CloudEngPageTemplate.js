@@ -1,8 +1,8 @@
 
 $(document).ready(function () {
-    setTimeout(   $('.contentLayout2 ').show(), 100);
+    setTimeout($('.contentLayout2').show(), 100);
 
-    $(document).ready(function () {
+    setTimeout($(document).ready(function () {
         //$(".CenterNarrow td").css({ "padding": 6 + "em" });
         $(".CenterNarrow").parents(".table-wrap").css({
             //"background-color": "#f7f7f7",
@@ -12,7 +12,7 @@ $(document).ready(function () {
             "padding": 0 + "px"
 
         });
-    });
+    }), 800);
 
     $(document).ready(function () {
         $("a:empty").closest("li").hide();
