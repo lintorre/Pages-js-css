@@ -3,9 +3,8 @@ $(document).ready(function () {
     setTimeout($('.contentLayout2').show(), 100);
 
     setTimeout($(document).ready(function () {
-        //$(".CenterNarrow td").css({ "padding": 6 + "em" });
+        $(".CenterNarrow td").css({ "padding": 11 + "px" });
         $(".CenterNarrow").parents(".table-wrap").css({
-            //"background-color": "#f7f7f7",
             "background-color": "#f7f7f7",
             "margin": "0",
             "width": 100 + "%",
