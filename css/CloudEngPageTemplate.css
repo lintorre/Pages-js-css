@@ -5,6 +5,7 @@
 #comments-section {
     display: none;
 }
+.search-macro-large {  max-width: 500%;  width: 75%;}
 .toc-macro {
     font-size: 14px;
     text-align: center;
