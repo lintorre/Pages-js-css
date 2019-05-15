@@ -3,7 +3,7 @@ $(document).ready(function () {
     setTimeout($('.contentLayout2').show(), 100);
 
     setTimeout($(document).ready(function () {
-        $(".CenterNarrow td").css({ "padding": 22 + "px" + 11 + "px" });
+        $(".CenterNarrow td").css({ "padding": (22 + "px") + (11 + "px") });
         $(".CenterNarrow").parents(".table-wrap").css({
             "background-color": "#f7f7f7",
             "margin": "0",
