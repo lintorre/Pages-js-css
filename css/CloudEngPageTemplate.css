@@ -159,7 +159,7 @@ div box-shadow-outset {
     line-height: 22px;
     padding: 2% 1.5% !important;
 }
-
+.CenterNarrow img {max-width: 100%;}
 .navbar {
 
     overflow: hidden;
