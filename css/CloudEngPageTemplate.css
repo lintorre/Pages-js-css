@@ -157,7 +157,7 @@ div box-shadow-outset {
     margin-left: auto;
     margin-right: auto;
     line-height: 20px;
-    padding: 2% !important
+    padding: 2% 1.5% !important;
 }
 
 .navbar {
@@ -175,7 +175,7 @@ div box-shadow-outset {
 
 
 
-.navbar > a {
+.navbar>a {
     width: 95%;
     float: left;
     font-size: 14px;
