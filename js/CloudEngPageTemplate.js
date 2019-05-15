@@ -8,8 +8,8 @@ $(document).ready(function () {
             //"background-color": "#f7f7f7",
             "background-color": "#f7f7f7",
             "margin": "0",
-            "width": 93 + "%",
-            "padding": 17 + "px"
+            "width": 100 + "%",
+            "padding": 0 + "px"
 
         });
     });
