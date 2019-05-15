@@ -46,20 +46,20 @@ hr {
     overflow: hidden;
 }
 
-.demo {
+.SlidR {
     width: 90%;
     text-align: center;
     margin-left: calc(47.9%);
     transform: translateX(-50%);
 }
 
-.demo .panel {
+.SlidR .panel {
     border: none;
     width: 60%;
     margin: 0 auto;
 }
 
-.demo .panelContent {
+.SlidR .panelContent {
     width: calc(90%);
     margin: auto;
 }
@@ -68,26 +68,26 @@ hr {
     overflow: hidden
 }
 
-.demo ul {
+.SlidR ul {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
 
 }
 
-.demo li {
+.SlidR li {
     display: block;
     float: left;
     margin-right: 6px;
     cursor: pointer;
 }
 
-.demo li p {
+.SlidR li p {
     text-align: center;
     padding: 2px 50px 2px 50px;
 }
 
-.demo img {
+.SlidR img {
     display: block;
     height: auto;
     max-width: 100%;
