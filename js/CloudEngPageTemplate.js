@@ -37,6 +37,8 @@ $(document).ready(function () {
         $('#blogContents .toc ul').append(li);
     });
 
+    /*
+
     $('#lightSlider').lightSlider({
         gallery: true,
         item: 1,
@@ -49,7 +51,7 @@ $(document).ready(function () {
         loop: true,
         slideEndAnimation: true,
         pause: 5000
-    });
+    }); */
 
     $(document).ready(function () {
         $(".dropdown,.dropdown-content").hover(function () {
