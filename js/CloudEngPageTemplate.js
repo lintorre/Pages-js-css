@@ -1,5 +1,11 @@
 
 $(document).ready(function () {
+   
+        $('.toc-macro').html(
+          $('.toc-macro').html().split(/｜/).join("<span style='color: white;  background: red;'>｜</span>")
+        );
+   
+
     setTimeout($('.contentLayout2').show(), 100);
 
     setTimeout($(document).ready(function () {
