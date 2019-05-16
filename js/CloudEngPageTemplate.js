@@ -11,6 +11,8 @@ $(document).ready(function () {
     setTimeout($(document).ready(function () {
         $("body").find(".CenterNarrow").parents(".innerCell").css({ 
             "border": 5 + "px",
+            "border-color": "#cfcfcf",
+            "border-style": "solid",
             "border-radius": 9 + "px"
         });
         $(".CenterNarrow td").css({ "padding-top": 22 + "px"});
