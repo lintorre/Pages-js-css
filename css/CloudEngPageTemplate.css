@@ -3,6 +3,10 @@
     border-radius: 9px;
 }
 
+.innerCell p br,
+.innerCell p:last {
+    display: none
+}
 
 .wiki-content {
     padding: 0;
