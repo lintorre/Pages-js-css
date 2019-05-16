@@ -9,6 +9,10 @@ $(document).ready(function () {
     setTimeout($('.contentLayout2').show(), 100);
 
     setTimeout($(document).ready(function () {
+        $("body").find(".CenterNarrow").parents(".innerCell").css({ 
+            "border": 5 + "px",
+            "border-radius": 9 + "px"
+        });
         $(".CenterNarrow td").css({ "padding-top": 22 + "px"});
         $(".CenterNarrow td").css({ "padding-left": 11 + "px"});
         $(".CenterNarrow").parents(".table-wrap").css({
