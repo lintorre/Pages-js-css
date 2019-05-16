@@ -1,9 +1,9 @@
-.innerCell .main-table-content {
+.innerCell.main-table-content {
     border: 5px #cfcfcf solid;
     border-radius: 9px;
 }
-.innerCell .main-table-content p br,
-.innerCell .main-table-content p:last {
+
+.innerCell.main-table-content p br{
     display: none
 }
 .wiki-content {
