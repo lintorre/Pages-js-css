@@ -17,6 +17,7 @@ $(document).ready(function () {
             "border-style": "solid",
             "border-radius": 9 + "px"
         }); */
+        $( ".innerCell>p:empty" ).css( "display", "none" );
         $(".CenterNarrow td").css({ "padding-top": 22 + "px"});
         $(".CenterNarrow td").css({ "padding-left": 11 + "px"});
         $(".CenterNarrow").parents(".table-wrap").css({
